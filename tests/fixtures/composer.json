@@ -1,0 +1,19 @@
+{
+    "name": "rvxlab/composer-nvim",
+    "description": "Fixture for composer.nvim",
+    "type": "project",
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require-dev": {
+        "pestphp/pest": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require": {
+        "spatie/color": "^1.5"
+    }
+}
